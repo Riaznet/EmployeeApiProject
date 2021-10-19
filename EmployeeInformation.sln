@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApi", "EmployeeApi.csproj", "{C50FD5FD-940D-4DE9-8C92-206D2977D337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{C50FD5FD-940D-4DE9-8C92-206D2977D337}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{39BC7CF1-0D04-4226-9A4A-1ED7B6769B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{39BC7CF1-0D04-4226-9A4A-1ED7B6769B85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository.csproj", "{DAA3EB83-92B8-44D2-9E5E-4D0EA535DB72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{DAA3EB83-92B8-44D2-9E5E-4D0EA535DB72}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\Common\Common.csproj", "{469A8194-91F9-41D3-8828-FBA62DB62BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{469A8194-91F9-41D3-8828-FBA62DB62BFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{8639CF49-7391-48C0-8736-8E62F87C7AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{8639CF49-7391-48C0-8736-8E62F87C7AB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Common", "1.Common", "{27C06A42-4F55-46C5-B5BA-A19766F43FDE}"
 EndProject
