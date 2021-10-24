@@ -1,4 +1,5 @@
 ﻿using Common;
+using Domain.Department;
 using Domain.Employees;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,6 +19,7 @@ namespace Repository.DBContext
             return SqlServerDbContextOptionsExtensions.UseSqlServer(new DbContextOptionsBuilder(), Sys_Data.DbConnection).Options;
         }
         public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<Department> Department { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
