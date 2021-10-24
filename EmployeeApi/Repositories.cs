@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Repository.IRepositoy.Departments;
 using Repository.IRepositoy.Employees;
+using Repository.Repositoy.Departments;
 using Repository.Repositoy.Employees;
 using System;
 using System.Collections.Generic;
@@ -13,6 +15,7 @@ namespace EmployeeApi
         public Repositories(IServiceCollection services)
         {
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+            services.AddTransient<IDepartmentRepository, DepartmentRepository>();
         }
     }
 }
